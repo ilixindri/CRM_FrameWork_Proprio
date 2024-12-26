@@ -1,0 +1,25 @@
+{
+    "name": "alex/crm",
+    "description": "CRM (System than create CRUDs with add-ons)",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alexandrogonsan@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
